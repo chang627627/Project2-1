@@ -1,0 +1,226 @@
+/* General styling*/
+.index-home{
+    padding-left: 16%;
+    padding-right: 15%;
+}
+/* css styling taken from week 2 tutorial from Paul*/
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	height: auto;
+	max-width: 100%;
+	border: 1px solid black;
+}
+figure {
+	padding: 0.25rem 0.5rem;
+    margin: 20px;
+}
+
+figure figcaption {
+    font-family: futura-pt, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+h1, h2, h3, p, code {
+  text-align: center;
+}
+ul li, ol li{
+  text-align: left;
+  font-family: futura-pt, sans-serif;
+}
+h1{
+font-family: filson-pro, sans-serif;
+font-size: 4rem;
+
+}
+h2{
+ font-family: filson-pro, sans-serif;
+font-size: 3rem;
+}
+h3{
+ font-family: filson-pro, sans-serif;
+font-size: 2rem;
+}
+p, code, label{
+  font-family: futura-pt, sans-serif;
+}
+p{
+  font-size: 1em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/*header*/
+ header{
+  position: fixed;
+   top:0;
+   left: 0;
+    width: 100%;
+    background-color:#D1E7F1;
+}
+
+header .header-brand{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50%;
+}
+ header .header-brand img{
+   width: 30px;
+   height: 30px;
+
+   }
+
+header nav ul {
+    display: block;
+   margin: 0 auto;
+   width: fit-content;
+}
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+header nav ul li  a{
+     font-family: futura-pt, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+
+header .header-projects {
+    display: none;
+}
+
+nav ul ul {
+    display: none;
+}
+@media only screen  and (min-width: 1000px){
+
+header .header-brand{
+
+    margin: 0 auto;
+    padding: 10px 5%;
+}
+header .header-brand img{
+
+
+   width: 50px;
+   height: 50px;
+    float: left;
+   }
+
+   header nav ul {
+   margin: 0px 0px 0px 0px;
+   float: right;
+}
+
+header nav ul li  a{
+    font-family: futura-pt, sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 60px;
+ }
+
+ header nav ul li  a:hover{
+
+      color: gray;
+    box-shadow: 0 0 5px gray;
+
+    }
+header .header-projects {
+    display: block;
+  font-family: futura-pt, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 38px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+
+}
+
+/* Styleguide */
+.textstyling{
+  background-color: 	#F0F9FC;
+}
+.BasicInteractive{
+  background-color: 		#92D1DE;
+}
+/* Forms */
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+input[type=submit] {
+  width: 50%;
+  font-weight:300;
+  background-color:  #628F43;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+form {
+  border-radius: 5px;
+  background-color: #D1E7F1;
+  padding: 20px;
+}
+
+/* button */
+.button3{
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+background-color:  #628F43;
+text-align:center;
+transition: all 0.2s;
+}
+.button3:hover{
+background-color:#F0F9FC;
+color: black;
+}
+@media all and (max-width:30em){
+ .button3{
+  display:block;
+  margin:0.2em auto;
+ }
+}
+/* nav bar */
+.nav-main{
+    padding-top: 5rem;
+}
+.nav-main-item {
+	display: inline-block;
+	color: white;
+background-color: 	#92D1DE;
+  font-family: futura-pt, sans-serif;
+	font-size: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+}
+
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: #D1E7F1;
+}
