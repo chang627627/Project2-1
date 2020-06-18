@@ -15,7 +15,9 @@ box-sizing: border-box;
   flex: 3 1 400px;
 }
 
-
+.Item .box{
+  padding-top: 4rem;
+}
 .box{
   display: -webkit-flex;
   display: -ms-flex;
@@ -26,7 +28,7 @@ box-sizing: border-box;
   justify-content: space-around;
 }
 .box-issue{
-background-color: #8383ff;
+background-color: #92D1DE;
   text-align: center;
 flex: 1 0 50%;
 }
@@ -39,9 +41,22 @@ flex: 1 0 30%;
   text-align: center;
 flex: 1 0 10%;
 }
-.box-container3{
+.box-side{
+  flex: 1 0 10%;
+}
+.box-center{
   text-align: center;
-flex: 1 0 20%;
+flex: 1 0 50%;
+}
+.box, .box-container3{
+  padding-top: 2rem;
+
+}
+.box-container3{
+  background-color:  #8B9F5E;
+
+  text-align: center;
+  flex: 1 0 20%;
 }
 
 .box-container4, .box-container5, .box-container6, .box-container7, .box-container8,{

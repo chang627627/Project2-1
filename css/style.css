@@ -3,6 +3,9 @@
     padding-left: 16%;
     padding-right: 15%;
 }
+body{
+  padding-top: 4rem;
+}
 /* css styling taken from week 2 tutorial from Paul*/
 img {
   margin-left: auto;
@@ -10,7 +13,7 @@ img {
   display: block;
 	height: auto;
 	max-width: 100%;
-	border: 1px solid black;
+
 }
 figure {
 	padding: 0.25rem 0.5rem;
@@ -34,7 +37,6 @@ ul li, ol li{
 h1{
 font-family: filson-pro, sans-serif;
 font-size: 4rem;
-
 }
 h2{
  font-family: filson-pro, sans-serif;
@@ -145,14 +147,18 @@ header .header-projects {
 
 
 }
+/* Reviews */
+.box-center, .review img{
+  display: inline;
+  position:static;
+  width: 5%;
+border: none;
+}
+/* About */
+.about img{
+  width: 100%;
+}
 
-/* Styleguide */
-.textstyling{
-  background-color: 	#F0F9FC;
-}
-.BasicInteractive{
-  background-color: 		#92D1DE;
-}
 /* Forms */
 input[type=text], select {
   width: 50%;
@@ -161,6 +167,15 @@ input[type=text], select {
   border-radius: 20px;
   margin-right: 5rem;
   margin-left: 5rem;
+}
+textarea, select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  font-family:'Roboto',sans-serif;
 }
 input[type=submit] {
   width: 50%;
@@ -177,6 +192,9 @@ form {
   border-radius: 5px;
   background-color: #D1E7F1;
   padding: 20px;
+}
+form img{
+  width: 400px;
 }
 
 /* button */
@@ -245,10 +263,10 @@ background-color: 	#92D1DE;
   font-family: futura-pt, sans-serif;
   font-size: 16px;
   padding: 0.55em 0.8em;
-  color: #f9f9fa; 
+  color: #f9f9fa;
   background-color: #818476;
   border-width: 0.01em;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .dropdown-picker {
@@ -257,12 +275,12 @@ background-color: 	#92D1DE;
   font-size: 16px;
   padding: 0.55em 0.8em;
   text-align: left;
-  color: #202021; 
-  background-color: #ffffff; 
+  color: #202021;
+  background-color: #ffffff;
   border-color: rgba(35, 7, 7, 0.16);
   border-width: 0.05em;
   border-style: solid;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .dropdown-quantity {
@@ -270,11 +288,11 @@ background-color: 	#92D1DE;
   font-size: 16px;
   padding: 0.55em 0.8em;
   text-align: center;
-  color: #202021; 
+  color: #202021;
   background-color: #ffffff;
   border-color: rgba(35, 7, 7, 0.16);
   border-width: 0.01em;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .dropdown {
@@ -285,7 +303,7 @@ background-color: 	#92D1DE;
 
 
 .dropdown-content {
-  display: none; 
+  display: none;
   position: absolute;
   background-color: #f9f9fa;
   text-decoration: none;
