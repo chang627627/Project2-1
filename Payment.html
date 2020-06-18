@@ -1,0 +1,103 @@
+
+<html>
+<head>
+ <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans|Rouge+Script">
+	<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+	<title>Wireframes</title>
+
+</head>
+<header>
+  <a href="index.php" class="header-brand">
+      <img src="img/logo.jpg" alt="logo">
+      </a>
+    <nav>
+    <ul>
+      <li> <a href="Services.html">Services</a>
+      </li>
+
+      <li> <a href="issues.html">Who we are</a></li>
+      <li> <a href="issues.html">Contact</a></li>
+    </ul>
+    </nav>
+
+    </header>
+<main>
+<body>
+    <!--
+    this was edited from Pauls Week 3 tutorial
+    -->
+    <nav class="nav-main box">
+    <a href="Wireframe.html" class="nav-main-item bg1 box-item-nav">Wireframe</a>
+    <a href="Styleguide.html" class="nav-main-item bg1 box-item-nav">Style guide</a>
+    <a href="Citation.html" class="nav-main-item bg1 box-item-nav">Citation</a>
+
+  </nav>
+	
+
+
+<!--start payment information form-->
+
+  <div class="payment">   
+ <div class="block box-container3">       
+              
+              <div class="dropdown">
+   
+                <button class="dropdown-picker" style="width: 13.5em">Visa &#9662</button>
+                <div class="dropdown-content" style="width: 13.5em">
+                  <a href="#">American Express</a>
+                  <a href="#">Mastercard</a>
+                  <a href="#">Visa</a>
+                </div>
+
+ </div>
+           
+
+
+
+
+ <div class="block box-container3">
+            
+         <form action="#">
+  <label for="cardnumber">Cardnumber</label>
+  <input type="text" id="cardnumber" cardnumber="cardnumber" placeholder="Your cardnumber">
+</form>
+ </div>
+
+
+ <div class="block box-container3">
+      <form action="#">      
+   <label for="cardholder">Cardholder</label>
+  <input type="text" id="cardholder" cardholder="cardholder" placeholder="Your name..">
+</form>
+ </div> 
+
+
+ <div class="block box-container3">
+      <form action="#">      
+  <label for="expiration">Expiration</label>
+  <input type="text" id="expiration" expiration="expiration" placeholder="Expiration..">
+</form>
+ </div> 
+
+ <div class="block box-container3">
+      <form action="#">      
+  <label for="cvv">CVV code</label>
+  <input type="text" id="cvv" cvv="cvv" placeholder="CVV..">
+</form>
+ </div> 
+
+<div class="block box-container3">
+   <input type="submit" class="button3" value="Confirm">
+   </div> 
+   </div> 
+</body>
+</main>
+            
+<!--end payment information form-->
+	<?php include 'footer.php'; ?>
+</html>
