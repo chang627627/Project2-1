@@ -224,3 +224,91 @@ background-color: 	#92D1DE;
 	color: white;
 	background-color: #D1E7F1;
 }
+
+/*Login*/
+.login{
+ background-color: #D1E7F1
+
+}
+
+/*Payment*/
+.payment{
+ background-color: #D1E7F1
+
+}
+
+
+
+/*dropdown button*/
+.dropdown-button {
+  display: inline-block;
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  color: #f9f9fa; 
+  background-color: #818476;
+  border-width: 0.01em;
+  text-decoration: none; 
+}
+
+.dropdown-picker {
+  display: block;
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  text-align: left;
+  color: #202021; 
+  background-color: #ffffff; 
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.05em;
+  border-style: solid;
+  text-decoration: none; 
+}
+
+.dropdown-quantity {
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  text-align: center;
+  color: #202021; 
+  background-color: #ffffff;
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.01em;
+  text-decoration: none; 
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  padding-bottom: 1em;
+}
+
+
+.dropdown-content {
+  display: none; 
+  position: absolute;
+  background-color: #f9f9fa;
+  text-decoration: none;
+  width: 100%;
+}
+
+.dropdown-content a {
+  font-family: futura-pt, sans-serif;
+  color: #202021;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #e5e5e5;
+}
