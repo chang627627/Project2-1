@@ -222,26 +222,7 @@ color: black;
   margin:0.2em auto;
  }
 }
-/* nav bar */
-.nav-main{
-    padding-top: 5rem;
-}
-.nav-main-item {
-	display: inline-block;
-	color: white;
-background-color: 	#92D1DE;
-  font-family: futura-pt, sans-serif;
-	font-size: 1.5rem;
-	padding: 0.25rem 0.5rem;
-	text-decoration: none;
-	transition: background-color 0.5s ease-out;
-}
 
-
-.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: white;
-	background-color: #D1E7F1;
-}
 
 /*Login*/
 .login{
